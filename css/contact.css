@@ -1,0 +1,70 @@
+ ul{
+     padding: 0;
+     text-align: right;
+     border-left: 1px solid #59e159;
+     border-bottom: 2px dotted #2d1919;
+ }
+  ul li{
+    display: inline;
+    margin-right: 10px;
+    list-style-type: none;
+ }
+
+ h1{
+    margin: 0;
+    color: green;
+    background-color: rgb(215, 104, 104);
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p.error {
+    line-height: 30px;
+    color: slategray;
+    /* column-count: 4;
+    column-gap: 30px; */
+        
+}
+
+/*  
+                                    Padding Colapse on inline element:
+
+    inline Element does not apply marginall around the element
+    only the left and right side . when the both elemnt collapse in a vertical
+     manner the tend to side on each other when 
+
+
+                                    Margin Colapse on block element :
+
+     when place on each other with same margin across all the whole element,
+     let's say 20px margin on both element. when the are on top of each other 
+     the margin colapse and only one single margin of value 20px exit instead of 40px.
+
+
+                                    Inline-block
+
+
+                                    Default Broswer style:
+     ----- User Agent Stylesheet
+
+                                    Decendant Selector---
+     div p{
+
+     } perent on the left and the children on the right.
+
+                                    Altribute Selector
+     ---- a[href = name of the site, use ".com" , "a particular name "]{
+        property : value
+    } can be used to style any anchor tag of a specfic name. pdf,mp3, and all.
+
+
+                                    The Cascade 
+    it means to pour downward, flow from parent to children.html can inherit it parent properties
+    that are applied.   Not all  property can be inherited. e.g Border...
+
+                                    HTML Semantic Tags
+    
+
+*/
+

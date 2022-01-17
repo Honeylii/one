@@ -1,0 +1,134 @@
+*{
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+/* var main = document.createElement("main") */
+
+body,div, p, h1{
+    padding: 0;
+    margin: 0;
+   
+}
+.main{
+    background-color: green;
+    position: relative;
+    border: 1px solid;
+    height : 300px;
+}
+
+p{
+    background: red;
+    
+}
+
+
+
+.main h1{
+    background: white;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    
+}
+div.container-1 {
+    border: 1px solid;
+    padding: 20px;
+}
+
+.container-1 h1{
+    color: green;
+}
+.container-1 ul{
+    width: 100%;
+    /* margin: 0 auto; */
+}
+.container-1 ul li {
+    width: 24%;
+    text-align: center;
+    border: 1px solid red;
+    display: inline-block;
+    padding: 10px;
+}
+/* @media all{
+    p{
+        color:blue;
+    }
+} */
+
+/* 
+                            With Media Queries
+Media queries take this concept several steps further by allowing authors to choose stylesheets based on the features of a
+given media type, using what are called media descriptors
+
+h1{
+    color:aqua;
+}
+@media projection{
+    body{
+        background: orchid;
+    }
+}
+
+@media all{
+    h1{
+        color
+    }
+}
+@media screen and (min-width: 890px){
+
+}
+
+
+                            Queries feature
+    @supports ( display : flex;){
+         @media screen {
+
+    }
+        @media print{
+
+        }
+    }
+ 
+
+     You can add media support to responsive screen
+
+     @media screen and (min-width: 3em){
+            @support (display: flex;){
+                Small screen flexbox goes in here.....
+            }
+     }
+
+     @media screen and (min-width: 30em) {
+ @supports (display: flex) {
+      large-screen flexbox styles go here 
+        }
+    }
+
+                    Attribute Selector
+        There are four general types of attribute selectors: simple attribute
+        selectors, exact attribute value selectors,
+        partial-match attribute value selectors, and
+        leading-value attribute selectors.
+
+        Example:
+        h1[class] {color: silver;}
+        img[alt] {border: 3px solid red;};
+        *[title] {font-weight: bold;}
+
+
+                    Selection Based on Exact Attribute Value
+        a[href="http://www.css-discuss.org/about.html"] {font-weight: bold;}
+        p[class="urgent warning"] {font-weight: bold;}
+
+
+
+
+
+        This strategy is very useful in XML documents, as XML languages tend to have ele‐
+        ment and attribute names that are specific to their purpose.
+
+
+ */
+ 

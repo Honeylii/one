@@ -1,0 +1,16 @@
+p {
+    border: 1px solid  ;
+    color: blue;
+    max-width : 80%;
+    /* margin: 20px auto; */
+    padding: 20px;
+
+}
+
+  p{/*box-shadow: inset -1px -1px white,
+    3px 3px 3px rgba(0,0,0,0.2); */
+     /* background-image: url(/images/image\ 1.jpg), 
+    linear-gradient(180deg, #FFF 0%, #000 100%); */
+    transform: translate(10px, 150px);
+    line-height: 1.6em;
+   }
