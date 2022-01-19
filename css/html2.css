@@ -93,11 +93,9 @@ nav ul li a {
     color: #ded77e;
 }
 
-nav ul li a:link:hover {
+.join:hover {
     color: black;
 }
-
-
 @media screen and (min-width:900px) {
     .welcome {
         font-size: 30px;
@@ -112,8 +110,8 @@ nav ul li a:link:hover {
 
 }
 
-            @media screen and (max-width:390px) {
-                .welcome {
+@media screen and (max-width:390px) {
+    .welcome {
         top: 50%;
     }
 }
