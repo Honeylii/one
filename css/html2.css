@@ -8,13 +8,17 @@
     Sticky
 */
 
-body, p, h1, h2, ul { 
+body,
+p,
+h1,
+h2,
+ul {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+header {
     text-align: center;
     background-color: black;
     height: 80px;
@@ -25,25 +29,24 @@ header{
     z-index: 1;
 }
 header h1 {
-    color : white;
+    color: white;
     border: 5px solid white;
     display: inline-block;
     padding: 6px 12px;
     margin: 10px;
     border-radius: 20px;
-}       
-.banner{
-   
+}
+.banner {
+
     position: relative;
 }
-.banner img{
+.banner img {
     width: 100%;
-   
 }
 main ul {
     padding: 0;
 }
-main ul li img{
+main ul li img {
     width: 100%;
 }
 
@@ -52,7 +55,7 @@ main ul li img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     position: absolute;
-    top : 25%;
+    top: 25%;
     right: 0;
     color: white;
     padding: 26px;
@@ -60,7 +63,7 @@ main ul li img{
 
     background: grey;
 }
-.banner h2{
+.banner h2 {
     font: 74px;
 }
 span {
@@ -74,33 +77,43 @@ nav {
     top: 80px;
 }
 
-nav ul{
+nav ul {
     white-space: nowrap;
     max-width: 1200px;
     margin: 0 auto;
-    
 }
-nav ul li{
+nav ul li {
     width: 28%;
     list-style-type: none;
     display: inline-block;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #ded77e;
 }
 
+nav ul li a:link:hover {
+    color: black;
+}
 
-@media screen and (min-width:900px ) {
-    .welcome{
+
+@media screen and (min-width:900px) {
+    .welcome {
         font-size: 30px;
         top: 25%;
     }
 }
-@media screen and (min-width:400px ) {
-    .welcome{
-        
+@media screen and (max-width:400px) {
+    .welcome {
+
+        top: 50%;
+    }
+
+}
+
+            @media screen and (max-width:390px) {
+                .welcome {
         top: 50%;
     }
 }

@@ -1,0 +1,35 @@
+                         /* Psuedo Class
+                         
+ :link and :visited can't work together 
+
+ Selecting element ---- mayer:fisrt-child
+
+ To select the first  --- mayer > :first-child
+
+
+ Selecting the root element : it's most useful in XML 
+
+ Select an empty element that has no children at all, including textnode which covers both text and white space..
+ p:empty {diplay: noe;} this would the display of empty page.
+ 
+ td:first-of-type {border-left: 1px solid red;}
+ table: first-of-type{ border-left: 1px solid red }
+
+Selecting the row of a table
+ tr:nth-child(odd) {background: silver;}
+ To  select the nth child of a list 
+ ul > li:nth-child(2n + 1)
+ ul > li:nth-child(3n + 1) {text-transform: uppercase;}
+ tr:nth-child(odd) {background: silver;}
+
+                         
+
+                                Focus
+                                Active
+                                hover
+
+input:focus {background: silver; font-weight: bold;}
+                                UI-State  Psuedo-Class
+
+
+                         */
